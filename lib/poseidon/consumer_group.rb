@@ -103,7 +103,10 @@ class Poseidon::ConsumerGroup
     options[:socket_timeout_ms] ||= 10000
     @options    = options
     @consumers  = []
+<<<<<<< HEAD
     p options
+=======
+>>>>>>> 09241015f293bc6056e45af523dd2dce43643d21
     @pool       = ::Poseidon::BrokerPool.new(id, brokers, options[:socket_timeout_ms])
     @mutex      = Mutex.new
     @registered = false
