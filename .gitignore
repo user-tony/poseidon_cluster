@@ -1,0 +1,8 @@
+logs/
+kafka*/
+doc/
+.yardoc/
+.bundle/
+pkg/
+coverage/
+*.log
